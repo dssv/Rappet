@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Rappet",
+    "slug": "Rappet-app",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "5.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon-rappet.png",
+    "splash": {
+      "image": "./assets/images/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rappet"
+    },
+    "android": {
+      "package": "com.rappet",
+      "versionCode": 1,
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+    "androidNavigationBar": {
+      "visible": false
+    }
+  }
+}
